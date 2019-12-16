@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
-let g:netrw_dirhist_6='/home/slim/source/temp/cmcstl_test/build'
-let g:netrw_dirhist_5='/home/slim/source/temp/cmcstl_test'
-let g:netrw_dirhist_4='/home/slim/source/temp/cmcstl_test/fmt'
-let g:netrw_dirhist_3='/home/slim/source/temp/cmcstl_test/fmt/src'
-let g:netrw_dirhist_2='/home/slim/source/temp/cmcstl_test/fmt'
-let g:netrw_dirhist_1='/home/slim/source/temp/cmcstl_test/fmt/include'
