@@ -10,8 +10,8 @@ nnoremap <C-L> <C-W><C-L>
 map <Space> @q
 map <Insert> "*p
 
-map J <C-d>
-map K <C-u>
+map J }
+map K {
 
 " searching - make backward search search forward
 " map # *

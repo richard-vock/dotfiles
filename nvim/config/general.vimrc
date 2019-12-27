@@ -60,3 +60,6 @@ set makeprg=ninja\ -j\ 12
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 "map <F7> :CMakeInstall<CR>
+
+" popuo menu background
+highlight Pmenu ctermbg=232

@@ -1,0 +1,15 @@
+{
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+      "rootPatterns": [".git", "conanfile.txt", "conanfile.py", ".ccls-root", "compile_commands.json"],
+      "initializationOptions": {
+         "cache": {
+           "directory": ".ccls-cache"
+         },
+         "compilationDatabaseDirectory": "build"
+       }
+    }
+  }
+}

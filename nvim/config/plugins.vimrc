@@ -14,7 +14,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'bronson/vim-trailing-whitespace'
 "Plug 'scrooloose/nerdcommenter'
 Plug 'tomtom/tcomment_vim'
-Plug 'SirVer/ultisnips'
+"Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
 Plug 'easymotion/vim-easymotion'
