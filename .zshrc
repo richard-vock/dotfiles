@@ -36,3 +36,5 @@ export FZF_DEFAULT_COMMAND="fd --type f --type l $FD_OPTIONS"
 
 # misc
 bindkey -v '^?' backward-delete-char
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

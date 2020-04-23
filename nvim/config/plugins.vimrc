@@ -20,6 +20,8 @@ Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
 Plug 'easymotion/vim-easymotion'
 Plug 'takac/vim-hardtime'
 Plug 'nanotech/jellybeans.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'will133/vim-dirdiff'
 "Plug 'Shougo/deoplete.nvim'
 
 call plug#end()
