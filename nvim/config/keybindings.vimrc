@@ -10,8 +10,10 @@ nnoremap <C-L> <C-W><C-L>
 map <Space> @q
 map <Insert> "*p
 
-map J }
-map K {
+" map J }
+" map K {
+map J <C-d>
+map K <C-u>
 
 " searching - make backward search search forward
 " map # *
@@ -26,7 +28,8 @@ map <F5> mA
 map <F6> `A
 map <F7> :update<CR>:cclose<CR>:make -C build install<CR>
 map <F8> :cclose<CR>
-map <F9> :update<CR>:cclose<CR>:make -C build<CR>
+" map <F9> :update<CR>:cclose<CR>:make -C build<CR>
+map <F9> :update<CR>:!conan create . richard-vock/stable<CR>
 "map <F10> :w<CR>:!build/test -v<CR>
 map <F10> :update<CR>:!cd build && ninja clean && ninja<CR>
 "map <F11> :CMakeCreateBuild build<CR>

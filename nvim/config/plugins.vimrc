@@ -22,6 +22,8 @@ Plug 'takac/vim-hardtime'
 Plug 'nanotech/jellybeans.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'will133/vim-dirdiff'
+Plug 'tikhomirov/vim-glsl'
+Plug 'qalshidi/vim-bettergrep', { 'branch': 'main' }
 "Plug 'Shougo/deoplete.nvim'
 
 call plug#end()

@@ -63,3 +63,5 @@ autocmd QuickFixCmdPost    l* nested lwindow
 
 " popuo menu background
 highlight Pmenu ctermbg=232
+
+set diffopt+=internal,algorithm:patience

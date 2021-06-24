@@ -57,7 +57,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+minus split v
 bindsym $mod+adiaeresis split h
 
-bindsym $mod+i fullscreen
+bindsym $mod+f fullscreen
 
 bindsym $mod+o layout stacking
 bindsym $mod+comma layout tabbed
