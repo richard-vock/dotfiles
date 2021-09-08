@@ -22,7 +22,9 @@ map <F1> zR
 map <F2> zM
 map <F3> zr
 
-map <F4> :cclose<CR>:bd<CR>
+"map <F4> :cclose<CR>:bd<CR>
+:command! BW :bn|:bd#
+map <F4> :BW<CR>
 
 map <F5> mA
 map <F6> `A

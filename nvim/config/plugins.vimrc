@@ -25,5 +25,6 @@ Plug 'will133/vim-dirdiff'
 Plug 'tikhomirov/vim-glsl'
 Plug 'qalshidi/vim-bettergrep', { 'branch': 'main' }
 "Plug 'Shougo/deoplete.nvim'
+Plug 'kyazdani42/nvim-tree.lua'
 
 call plug#end()
