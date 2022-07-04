@@ -7,24 +7,29 @@ Plug 'autozimu/LanguageClient-neovim', {
 " Multi-entry selection UI. FZF
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'vim-scripts/a.vim'
-Plug 'kien/ctrlp.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'leafgarland/typescript-vim'
+Plug 'posva/vim-vue'
+
+Plug 'bronson/vim-trailing-whitespace'
+
+Plug 'kyazdani42/nvim-web-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'bronson/vim-trailing-whitespace'
-"Plug 'scrooloose/nerdcommenter'
+
 Plug 'tomtom/tcomment_vim'
-"Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
-Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
 Plug 'easymotion/vim-easymotion'
-Plug 'takac/vim-hardtime'
 Plug 'nanotech/jellybeans.vim'
+Plug 'ayu-theme/ayu-vim'
+Plug 'Yggdroot/indentLine'
 Plug 'junegunn/goyo.vim'
 Plug 'will133/vim-dirdiff'
-Plug 'tikhomirov/vim-glsl'
-Plug 'qalshidi/vim-bettergrep', { 'branch': 'main' }
-"Plug 'Shougo/deoplete.nvim'
+
 Plug 'kyazdani42/nvim-tree.lua'
+
+Plug 'nvim-lua/plenary.nvim'
+Plug 'sindrets/diffview.nvim'
+Plug 'TimUntersberger/neogit'
 
 call plug#end()

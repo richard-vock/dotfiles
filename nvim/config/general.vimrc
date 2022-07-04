@@ -22,8 +22,9 @@ set cindent
 :set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 set number
-" .swp go into /tmp
-set directory=/tmp,.
+" .swp folder
+"set directory^=/home/slim/.local/share/nvim/swap//
+set noswapfile
 
 :set hidden
 
@@ -53,15 +54,9 @@ au BufNewFile,BufRead *.py
     \ set autoindent |
     \ set fileformat=unix
 
-" make
-"set makeprg=scons\ -j\ 12
-set makeprg=ninja\ -j\ 12
-":command -nargs=* Make make <args> | cwindow 8
-autocmd QuickFixCmdPost [^l]* nested cwindow
-autocmd QuickFixCmdPost    l* nested lwindow
-"map <F7> :CMakeInstall<CR>
-
 " popuo menu background
 highlight Pmenu ctermbg=232
 
 set diffopt+=internal,algorithm:patience
+
+let g:vim_json_conceal=0
